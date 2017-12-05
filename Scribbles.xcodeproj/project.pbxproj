@@ -11,15 +11,19 @@
 		AB6ED54F1FD73E0100CF4F02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ED54E1FD73E0100CF4F02 /* ViewController.swift */; };
 		AB6ED5541FD73E0100CF4F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6ED5531FD73E0100CF4F02 /* Assets.xcassets */; };
 		AB6ED5571FD73E0100CF4F02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6ED5551FD73E0100CF4F02 /* LaunchScreen.storyboard */; };
+		ED82B9CA941EEB5005989978 /* Pods_Scribbles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5F71AB1358684BB563D00C /* Pods_Scribbles.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C5F71AB1358684BB563D00C /* Pods_Scribbles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scribbles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FFCB9C971138A282C4A1CA /* Pods-Scribbles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribbles.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scribbles/Pods-Scribbles.release.xcconfig"; sourceTree = "<group>"; };
 		AB6ED5471FD73E0100CF4F02 /* Scribbles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scribbles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6ED54A1FD73E0100CF4F02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB6ED54E1FD73E0100CF4F02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB6ED5531FD73E0100CF4F02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB6ED5561FD73E0100CF4F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB6ED5581FD73E0100CF4F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5D23AAF28DD90B157B8F81D /* Pods-Scribbles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribbles.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scribbles/Pods-Scribbles.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +31,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED82B9CA941EEB5005989978 /* Pods_Scribbles.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F1A5ED66A72230AA6604169 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5D23AAF28DD90B157B8F81D /* Pods-Scribbles.debug.xcconfig */,
+				96FFCB9C971138A282C4A1CA /* Pods-Scribbles.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D4C803E1F1B47C6E0A9D220 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C5F71AB1358684BB563D00C /* Pods_Scribbles.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AB6ED53E1FD73E0100CF4F02 = {
 			isa = PBXGroup;
 			children = (
 				AB6ED5491FD73E0100CF4F02 /* Scribbles */,
 				AB6ED5481FD73E0100CF4F02 /* Products */,
+				1F1A5ED66A72230AA6604169 /* Pods */,
+				6D4C803E1F1B47C6E0A9D220 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,9 +92,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB6ED55B1FD73E0100CF4F02 /* Build configuration list for PBXNativeTarget "Scribbles" */;
 			buildPhases = (
+				F68158E69CB9747D3019709C /* [CP] Check Pods Manifest.lock */,
 				AB6ED5431FD73E0100CF4F02 /* Sources */,
 				AB6ED5441FD73E0100CF4F02 /* Frameworks */,
 				AB6ED5451FD73E0100CF4F02 /* Resources */,
+				4D02CF001DA5156B0CED94E0 /* [CP] Embed Pods Frameworks */,
+				054ADAC061C02DB52468671C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +153,64 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		054ADAC061C02DB52468671C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scribbles/Pods-Scribbles-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D02CF001DA5156B0CED94E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Scribbles/Pods-Scribbles-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Carrot/Carrot.framework",
+				"${BUILT_PRODUCTS_DIR}/Parrot/Parrot.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Carrot.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parrot.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scribbles/Pods-Scribbles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F68158E69CB9747D3019709C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Scribbles-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AB6ED5431FD73E0100CF4F02 /* Sources */ = {
@@ -260,6 +345,7 @@
 		};
 		AB6ED55C1FD73E0100CF4F02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D23AAF28DD90B157B8F81D /* Pods-Scribbles.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -275,6 +361,7 @@
 		};
 		AB6ED55D1FD73E0100CF4F02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96FFCB9C971138A282C4A1CA /* Pods-Scribbles.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

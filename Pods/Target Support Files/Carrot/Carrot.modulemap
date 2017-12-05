@@ -1,0 +1,6 @@
+framework module Carrot {
+  umbrella header "Carrot-umbrella.h"
+
+  export *
+  module * { export * }
+}

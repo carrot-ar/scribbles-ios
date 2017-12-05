@@ -1,0 +1,23 @@
+{
+  "name": "Carrot",
+  "version": "0.0.1",
+  "summary": "Carrot is an open-source framework for multi-device AR apps.",
+  "description": "Carrot is an open-source framework for multi-device AR apps. This is the iOS client-side framework that interacts with your Carrot web app.",
+  "homepage": "https://github.com/senior-buddy/carrot-ios",
+  "license": "BSD 3-Clause",
+  "authors": "gonzalonunez",
+  "social_media_url": "http://twitter.com/gonzalonunez",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/carrot-ar/carrot-ios.git",
+    "tag": "0.0.1"
+  },
+  "dependencies": {
+    "Parrot": [
+
+    ]
+  },
+  "source_files": "Carrot/**/*.swift"
+}
