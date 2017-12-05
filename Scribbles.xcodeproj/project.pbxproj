@@ -11,6 +11,7 @@
 		AB6ED54F1FD73E0100CF4F02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ED54E1FD73E0100CF4F02 /* ViewController.swift */; };
 		AB6ED5541FD73E0100CF4F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6ED5531FD73E0100CF4F02 /* Assets.xcassets */; };
 		AB6ED5571FD73E0100CF4F02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6ED5551FD73E0100CF4F02 /* LaunchScreen.storyboard */; };
+		AB6ED55F1FD7415B00CF4F02 /* CarrotSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ED55E1FD7415B00CF4F02 /* CarrotSocket.swift */; };
 		ED82B9CA941EEB5005989978 /* Pods_Scribbles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5F71AB1358684BB563D00C /* Pods_Scribbles.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		AB6ED5531FD73E0100CF4F02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB6ED5561FD73E0100CF4F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB6ED5581FD73E0100CF4F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB6ED55E1FD7415B00CF4F02 /* CarrotSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarrotSocket.swift; sourceTree = "<group>"; };
 		B5D23AAF28DD90B157B8F81D /* Pods-Scribbles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribbles.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scribbles/Pods-Scribbles.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +78,7 @@
 		AB6ED5491FD73E0100CF4F02 /* Scribbles */ = {
 			isa = PBXGroup;
 			children = (
+				AB6ED55E1FD7415B00CF4F02 /* CarrotSocket.swift */,
 				AB6ED54A1FD73E0100CF4F02 /* AppDelegate.swift */,
 				AB6ED54E1FD73E0100CF4F02 /* ViewController.swift */,
 				AB6ED5531FD73E0100CF4F02 /* Assets.xcassets */,
@@ -218,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB6ED54F1FD73E0100CF4F02 /* ViewController.swift in Sources */,
+				AB6ED55F1FD7415B00CF4F02 /* CarrotSocket.swift in Sources */,
 				AB6ED54B1FD73E0100CF4F02 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
