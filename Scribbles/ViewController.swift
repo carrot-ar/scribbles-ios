@@ -155,7 +155,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNSceneRendererDeleg
     do {
       try strokeRenderer.render(with: renderer)
     } catch {
-    print("ERROR: \(error)")
+      print("ERROR: \(error)")
     }
     
     /*

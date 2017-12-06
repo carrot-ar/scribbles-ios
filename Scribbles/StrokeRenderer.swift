@@ -20,20 +20,21 @@ struct Vertex {
     return position + color.floats
   }
   
-  static func direction(from: Vertex, to: Vertex) {
-    return SCNVector3Normalize(vector: other - vector)
-  }
-  
-  static func -(lhs: Vertex, rhs: Vertex) -> Vertex {
-    
+  static func direction(from: Vertex, to: Vertex) -> Vertex {
+    assert(from.color == to.color)
+    return Vertex(
+      position: normalize(to.position - from.position),
+      color: from.color)
   }
   
   func normalized() -> Vertex {
     let x = position.x
     let y = position.y
     let z = position.z
-    let w = position.w
     let length = sqrtf(x*x + y*y + z*z)
+    return Vertex(
+      position: position / length,
+      color: color)
   }
 }
 
