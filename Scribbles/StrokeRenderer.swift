@@ -127,13 +127,15 @@ class StrokeRenderer {
     }
     
     // Set render command encoder state
-    renderEncoder.setCullMode(.back)
-    let renderPipelineState = try createRenderPipelineStateIfNeeded(with: device)
+    let renderPipelineState = try createRenderPipelineStateIfNeeded(
+      with: device,
+      colorPixelFormat: sceneRenderer.colorPixelFormat,
+      depthPixelFormat: sceneRenderer.depthPixelFormat)
     renderEncoder.setRenderPipelineState(renderPipelineState)
     
     // Set any buffers fed into our render pipeline
     renderEncoder.setVertexBuffer(vertexBuffer, offset: 0, index: 0)
-    
+        
     // Draw old strokes
     if !oldStrokes.isEmpty {
       var offset = 0
@@ -159,7 +161,7 @@ class StrokeRenderer {
         vertexStart: 0,
         vertexCount: currentStroke.vertices.count)
     }
-    
+        
     renderEncoder.popDebugGroup()
   }
   
@@ -193,7 +195,11 @@ class StrokeRenderer {
     }
   }
   
-  private func createRenderPipelineStateIfNeeded(with device: MTLDevice) throws -> MTLRenderPipelineState {
+  private func createRenderPipelineStateIfNeeded(
+    with device: MTLDevice,
+    colorPixelFormat: MTLPixelFormat,
+    depthPixelFormat: MTLPixelFormat) throws -> MTLRenderPipelineState
+  {
     if let pipelineState = renderPipelineState {
       return pipelineState
     }
@@ -203,7 +209,8 @@ class StrokeRenderer {
     let descriptor = MTLRenderPipelineDescriptor()
     descriptor.vertexFunction = defaultLibrary.makeFunction(name: "basic_vertex")
     descriptor.fragmentFunction = defaultLibrary.makeFunction(name: "basic_fragment")
-    descriptor.colorAttachments[0].pixelFormat = .bgra8Unorm
+    descriptor.colorAttachments[0].pixelFormat = colorPixelFormat
+    descriptor.depthAttachmentPixelFormat = depthPixelFormat
     let pipelineState = try device.makeRenderPipelineState(descriptor: descriptor)
     renderPipelineState = pipelineState
     return pipelineState
