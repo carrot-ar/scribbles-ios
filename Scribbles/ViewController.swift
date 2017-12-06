@@ -56,7 +56,15 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNSceneRendererDeleg
   private var sceneView: ARSCNView!
   private var events = [ARAnchor: TextEvent]()
   private var carrotSession: CarrotSession<TextEvent>!
-  private var shouldDraw = false
+  private var strokeRenderer = StrokeRenderer()
+  private var shouldDraw = false {
+    didSet {
+      let wasDrawing = oldValue
+      if shouldDraw && !wasDrawing {
+        strokeRenderer.startNewStroke()
+      }
+    }
+  }
   
   private func setUpSceneView() {
     sceneView = ARSCNView(frame: view.frame)
@@ -123,6 +131,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNSceneRendererDeleg
   
   // MARK: - ARSCNViewDelegate
   
+  /*
   func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
     guard let event = events[anchor] else {
       return nil
@@ -134,15 +143,22 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNSceneRendererDeleg
     
     return SCNNode(geometry: text)
   }
+  */
   
   func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
     guard carrotSession.state.isAuthenticated, shouldDraw else { return }
     
     let offset = sceneView.session.currentFrame!.camera.transform.columns.3
-    let x = Double(offset.x)
-    let y = Double(offset.y)
-    let z = Double(offset.z)
+    let vertex = Vertex(position: offset, color: .red)
+    strokeRenderer.append(vertex)
     
+    do {
+      try strokeRenderer.render(with: renderer)
+    } catch {
+    print("ERROR: \(error)")
+    }
+    
+    /*
     let event = TextEvent(
       text: "🥕",
       extrusionDepth: 3)
@@ -150,11 +166,13 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNSceneRendererDeleg
     let message = Message(
       location: Location3D(x: x, y: y, z: z),
       object: event)
+    
     do {
       try carrotSession.send(message: message, to: "draw")
     } catch {
       print("ERROR: \(error)")
     }
+    */
   }
   
   func session(_ session: ARSession, didFailWithError error: Error) {
