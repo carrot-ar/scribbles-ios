@@ -33,7 +33,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNSceneRendererDeleg
     let configuration = ARWorldTrackingConfiguration()
     configuration.worldAlignment = .gravityAndHeading
     sceneView.session.run(configuration)
-    
+
     startCarrotSession()
   }
   
@@ -56,15 +56,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNSceneRendererDeleg
   private var sceneView: ARSCNView!
   private var events = [ARAnchor: TextEvent]()
   private var carrotSession: CarrotSession<TextEvent>!
-  private var strokeRenderer = StrokeRenderer()
-  private var shouldDraw = false {
-    didSet {
-      let wasDrawing = oldValue
-      if shouldDraw && !wasDrawing {
-        strokeRenderer.startNewStroke()
-      }
-    }
-  }
+  private var shouldDraw = false
   
   private func setUpSceneView() {
     sceneView = ARSCNView(frame: view.frame)
@@ -100,7 +92,6 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNSceneRendererDeleg
       messageHandler: didReceiveMessage,
       errorHandler: { _, error in
         print("ERROR: \(error)")
-        return nil
       }
     )
   }
@@ -111,68 +102,18 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNSceneRendererDeleg
     }
   }
   
-  func didReceiveMessage(_ result: Result<Message<TextEvent>>, endpoint: String?) {
-    switch result {
-    case let .success(message):
-      guard let position = message.location else { return }
-      
-      var transform = matrix_identity_float4x4
-      transform.columns.3.x = Float(position.x)
-      transform.columns.3.y = Float(position.y)
-      transform.columns.3.z = Float(position.z)
-      let anchor = ARAnchor(transform: transform)
-      
-      events[anchor] = message.object
-      sceneView.session.add(anchor: anchor)
-    case let .error(error):
-      print("ERROR: \(error)")
-    }
+  private func didReceiveMessage(_ result: MessageResult<TextEvent>) {
+    
   }
   
   // MARK: - ARSCNViewDelegate
   
-  /*
-  func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
-    guard let event = events[anchor] else {
-      return nil
-    }
-    
-    let text = SCNText(
-      string: event.text,
-      extrusionDepth: event.extrusionDepth)
-    
-    return SCNNode(geometry: text)
-  }
-  */
-  
+//  func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
+//
+//  }
+ 
   func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
-    guard carrotSession.state.isAuthenticated, shouldDraw else { return }
-    
-    let offset = sceneView.session.currentFrame!.camera.transform.columns.3
-    let vertex = Vertex(position: offset, color: .red)
-    strokeRenderer.append(vertex)
-    
-    do {
-      try strokeRenderer.render(with: renderer)
-    } catch {
-      print("ERROR: \(error)")
-    }
-    
-    /*
-    let event = TextEvent(
-      text: "🥕",
-      extrusionDepth: 3)
-    
-    let message = Message(
-      location: Location3D(x: x, y: y, z: z),
-      object: event)
-    
-    do {
-      try carrotSession.send(message: message, to: "draw")
-    } catch {
-      print("ERROR: \(error)")
-    }
-    */
+
   }
   
   func session(_ session: ARSession, didFailWithError error: Error) {
@@ -189,11 +130,4 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNSceneRendererDeleg
     // Reset tracking and/or remove existing anchors if consistent tracking is required
     
   }
-}
-
-// MARK: - TextEvent
-
-struct TextEvent: Codable {
-  var text: String
-  var extrusionDepth: CGFloat
 }

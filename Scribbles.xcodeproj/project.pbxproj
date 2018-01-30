@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB0F2C39202128DE000F721D /* TextEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F2C38202128DE000F721D /* TextEvent.swift */; };
+		AB0F2C3B20212AC4000F721D /* DynamicGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F2C3A20212AC4000F721D /* DynamicGeometry.swift */; };
 		AB6ED54B1FD73E0100CF4F02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ED54A1FD73E0100CF4F02 /* AppDelegate.swift */; };
 		AB6ED54F1FD73E0100CF4F02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ED54E1FD73E0100CF4F02 /* ViewController.swift */; };
 		AB6ED5541FD73E0100CF4F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6ED5531FD73E0100CF4F02 /* Assets.xcassets */; };
 		AB6ED5571FD73E0100CF4F02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6ED5551FD73E0100CF4F02 /* LaunchScreen.storyboard */; };
 		AB6ED55F1FD7415B00CF4F02 /* CarrotSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ED55E1FD7415B00CF4F02 /* CarrotSocket.swift */; };
-		AB6ED5611FD7938000CF4F02 /* StrokeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ED5601FD7938000CF4F02 /* StrokeRenderer.swift */; };
-		AB6ED5631FD7977D00CF4F02 /* PageAlignedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ED5621FD7977D00CF4F02 /* PageAlignedArray.swift */; };
 		AB6ED5651FD7A10500CF4F02 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = AB6ED5641FD7A10500CF4F02 /* Shaders.metal */; };
-		AB6ED5671FD7A30900CF4F02 /* Triangulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ED5661FD7A30900CF4F02 /* Triangulator.swift */; };
 		ED82B9CA941EEB5005989978 /* Pods_Scribbles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5F71AB1358684BB563D00C /* Pods_Scribbles.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5C5F71AB1358684BB563D00C /* Pods_Scribbles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scribbles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FFCB9C971138A282C4A1CA /* Pods-Scribbles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribbles.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scribbles/Pods-Scribbles.release.xcconfig"; sourceTree = "<group>"; };
+		AB0F2C38202128DE000F721D /* TextEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEvent.swift; sourceTree = "<group>"; };
+		AB0F2C3A20212AC4000F721D /* DynamicGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicGeometry.swift; sourceTree = "<group>"; };
 		AB6ED5471FD73E0100CF4F02 /* Scribbles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scribbles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6ED54A1FD73E0100CF4F02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB6ED54E1FD73E0100CF4F02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,10 +30,7 @@
 		AB6ED5561FD73E0100CF4F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB6ED5581FD73E0100CF4F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB6ED55E1FD7415B00CF4F02 /* CarrotSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarrotSocket.swift; sourceTree = "<group>"; };
-		AB6ED5601FD7938000CF4F02 /* StrokeRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeRenderer.swift; sourceTree = "<group>"; };
-		AB6ED5621FD7977D00CF4F02 /* PageAlignedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageAlignedArray.swift; sourceTree = "<group>"; };
 		AB6ED5641FD7A10500CF4F02 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
-		AB6ED5661FD7A30900CF4F02 /* Triangulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangulator.swift; sourceTree = "<group>"; };
 		B5D23AAF28DD90B157B8F81D /* Pods-Scribbles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribbles.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scribbles/Pods-Scribbles.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,9 +86,8 @@
 			children = (
 				AB6ED54A1FD73E0100CF4F02 /* AppDelegate.swift */,
 				AB6ED55E1FD7415B00CF4F02 /* CarrotSocket.swift */,
-				AB6ED5621FD7977D00CF4F02 /* PageAlignedArray.swift */,
-				AB6ED5601FD7938000CF4F02 /* StrokeRenderer.swift */,
-				AB6ED5661FD7A30900CF4F02 /* Triangulator.swift */,
+				AB0F2C3A20212AC4000F721D /* DynamicGeometry.swift */,
+				AB0F2C38202128DE000F721D /* TextEvent.swift */,
 				AB6ED54E1FD73E0100CF4F02 /* ViewController.swift */,
 				AB6ED5531FD73E0100CF4F02 /* Assets.xcassets */,
 				AB6ED5551FD73E0100CF4F02 /* LaunchScreen.storyboard */,
@@ -235,10 +232,9 @@
 				AB6ED5651FD7A10500CF4F02 /* Shaders.metal in Sources */,
 				AB6ED54F1FD73E0100CF4F02 /* ViewController.swift in Sources */,
 				AB6ED55F1FD7415B00CF4F02 /* CarrotSocket.swift in Sources */,
-				AB6ED5611FD7938000CF4F02 /* StrokeRenderer.swift in Sources */,
 				AB6ED54B1FD73E0100CF4F02 /* AppDelegate.swift in Sources */,
-				AB6ED5631FD7977D00CF4F02 /* PageAlignedArray.swift in Sources */,
-				AB6ED5671FD7A30900CF4F02 /* Triangulator.swift in Sources */,
+				AB0F2C39202128DE000F721D /* TextEvent.swift in Sources */,
+				AB0F2C3B20212AC4000F721D /* DynamicGeometry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,38 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02EB53B66EC22A56700995BAF0047061 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = ED4E3EDD6F652E5CC3A61CE5F2ACE568 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06206590D8CDB1377055CA1F189ABC54 /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62005BBC7F207CEB39429F3C1373A88A /* SocketRocket-dummy.m */; };
-		128AF1E81C21BC85DE083E0D142CD2C8 /* Matrix_Float4x4+Conveniences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E709B3B1E885BA932B41B2EACB8E33EA /* Matrix_Float4x4+Conveniences.swift */; };
-		17D69E720C805E6FC522097854BB1F30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F216F7EEEE42C1647672D286D109D247 /* Foundation.framework */; };
-		29524A1FECE2F7C81F0EE933C4CBF05E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526DCFC30F2D16ADC07FBCB9ADB8F5A5 /* Location.swift */; };
-		2AE30061BC4C24583DC5FB89234AD6AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F216F7EEEE42C1647672D286D109D247 /* Foundation.framework */; };
-		2BBB8D9B2E5081BBE4039E188B2F7D13 /* BeaconInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5647421518566C550CADF9F715C8920 /* BeaconInfo.swift */; };
-		2BD6AFABD3159C8D48AC8BD4572D443D /* ReservedSendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3362FA029DC7C80152524D76983D242A /* ReservedSendable.swift */; };
+		02EB53B66EC22A56700995BAF0047061 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = A8BA00189823B614B41AA62B45C91E82 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03441027206BE09AC467D8ACA3B78691 /* DriverState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDDC180BFE132A19EAEEBB6ED2364CC /* DriverState.swift */; };
+		06206590D8CDB1377055CA1F189ABC54 /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3F90E03631704115F5899D04CAD4C /* SocketRocket-dummy.m */; };
+		0740BA59C930222C682D5262C9129BE7 /* Carrot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29713521278A4F2F086743F1AB1B83B8 /* Carrot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		131C9B057A0EF4A67F63D69059C3D1E1 /* Parrot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CF468647E110C7D818BCFF51EEB6A01 /* Parrot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2825B6D721394C20E4B3A8526AE521B3 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96B58CDDAE286C5A4FB613126A09263 /* Socket.swift */; };
 		30F3F03E36BA6CA301084ED27D68267B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AC837D47E690723AC4A78717756A52 /* Security.framework */; };
-		31254C6271B2580A1D2921C24E98C2B6 /* SocketRocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 462D9608EB269DD19B3C375C3A952E96 /* SocketRocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		445130DFC402077C43D2BF26587D4940 /* Carrot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5005232689CEA16C2A24E1BF18D9AC /* Carrot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		462CAEA2E1D0F4E06532C43E8FAAAE52 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0484DBF679AD0D867C44F43AF04FC663 /* SRWebSocket.m */; };
-		5695FE4D1933EFF4622D66BC3FFD6E0D /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 2456037C40AC778BCC17FCC9D1F8C51B /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31254C6271B2580A1D2921C24E98C2B6 /* SocketRocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D3024D978B6F1FEBC9AA1112D84A8C8 /* SocketRocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38E229EBA90F7E0014F87921CF0611B3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD9318EBF943F9F1555664F84C836C6 /* Message.swift */; };
+		3989B2D85AF3A0F96F22C333B37DCFD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F216F7EEEE42C1647672D286D109D247 /* Foundation.framework */; };
+		3AA7742513D2321E27D7D70AFDB24A41 /* Parrot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3214FC2C4064A3C52467ADF9A9C9F38D /* Parrot.framework */; };
+		462CAEA2E1D0F4E06532C43E8FAAAE52 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7357959A064CBAD1A3D1C9F0664E2F6F /* SRWebSocket.m */; };
+		4D14A43E69F6494AB12A168E1F135E10 /* BeaconMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2012509AD944B03608FF0EAD3FD91084 /* BeaconMonitor.swift */; };
+		52DB7A13F7911166BB0124013CE59442 /* Carrot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA38DE4B7873D2EE02FFC9A89196669 /* Carrot-dummy.m */; };
+		53AE29247CF9D7709763E1C84ED44C00 /* ReservedMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B864874D237EC38FA8B82963E40BBD38 /* ReservedMessage.swift */; };
+		54AEB2ECAF5EF7C1B1F7DF9C00184D73 /* ReservedSendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EF4147D2A7F86F6D064CC96CA180AF /* ReservedSendable.swift */; };
+		5695FE4D1933EFF4622D66BC3FFD6E0D /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C65DBD37B8835112A455D620A6B7D7 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66C1627E66E9E204193B67A51588FC18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F216F7EEEE42C1647672D286D109D247 /* Foundation.framework */; };
-		73667A43AA2446D93EFD94FF24C44CCE /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E200EB02B885DF50429264B120481 /* Utils.swift */; };
-		7A2822019787A14ECC4069F24786CC31 /* Carrot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D60FE163581525ACB5DE8C1EA16E8C74 /* Carrot-dummy.m */; };
+		6FF310FE882463152F484213D22AB62D /* BeaconAdvertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A05EF6D4E82745873C2803C44DBFF87 /* BeaconAdvertiser.swift */; };
 		7DB0FC4BB64598130AA878594FFAC030 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F216F7EEEE42C1647672D286D109D247 /* Foundation.framework */; };
 		7DEE964A38CCF8C9DED7BBAC6EBE2A2B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893FFBD00317E7E478D179D2423452FB /* CFNetwork.framework */; };
-		82A444849C5A4609D6D3416DDD077BE9 /* BeaconMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38728971FF2BF91EBF271B94A64336B /* BeaconMonitor.swift */; };
+		7F6880E32DCFE442073E163D962E76DD /* MatrixUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919AC6360CFAA9E85F15F972F44FBDA /* MatrixUtils.swift */; };
 		830C561B2F464195BD4FD22711979F3C /* Pods-Scribbles-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B42AA69F5BA02FC3BF4C2CF31E7C97B7 /* Pods-Scribbles-dummy.m */; };
-		92E1F69B830F2346B03254C59E2912A1 /* BeaconAdvertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503CCEB99069CF7BEB0AB6FFD8816980 /* BeaconAdvertiser.swift */; };
+		8C5267576D4E8CD014A0474F3527370F /* CarrotSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05712D9750CA0B03C9E893EFE4FA18A /* CarrotSession.swift */; };
+		99297CE7ECB6406E6DD747CF3A6BF7CC /* PicnicProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B133966665FFC7A8DED92CBDEE611800 /* PicnicProtocol.swift */; };
 		9ACDA7F0A05F63D7C84CED5132DDA6D8 /* Pods-Scribbles-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2FD256ED23977308DC571B4A79E9F7 /* Pods-Scribbles-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A16DC089F2C4264F04AC4F134A47D081 /* Parrot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3214FC2C4064A3C52467ADF9A9C9F38D /* Parrot.framework */; };
-		A172372158166119BEB85E8A45306624 /* Sendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4878E7F30E6B680B1EDA594172ED6BA2 /* Sendable.swift */; };
-		AA97B9DD96A376A4DA42D3B098270817 /* ReservedMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BAC8C8CF744CD20411B152DA0A6AC4 /* ReservedMessage.swift */; };
-		B958AE08D5ABA4939312C1DD275EA519 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDF846CFC4A8ED61B31A99399024187 /* Socket.swift */; };
-		BC5B29AFB1991BAA7049A398CB931C9B /* Parrot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B384B97C75FAAF8E0F6E2D34243030 /* Parrot-dummy.m */; };
-		C3A9C0C2EEF8D97473B0D17835448404 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F2B4DB074CD002B66D27A9CC5099A /* Message.swift */; };
-		CF97B16EC1FC56C5284F40888B56BF98 /* CarrotSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949EB1080978B15206FF20CFC726DF72 /* CarrotSession.swift */; };
-		D2B89DC7CCB3C6BDDB2DA25F8EE27C9C /* BeaconParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E3F7D0F61A8BF32ECD54DE75ACD67B /* BeaconParams.swift */; };
-		E7DA6851B23ADA225FC6864926E4C10E /* CarrotSessionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096DCF0366E2B38E29B21CA77584440C /* CarrotSessionState.swift */; };
-		F4D7D247D8680BFD64C29E2AB7051078 /* Parrot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B463A84C622F1713F38DFEFED93F26DD /* Parrot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E070C594300A0104B5AD3F7BB442407 /* SessionDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D289755500FC96D7CF2F87CAB4BD2B1 /* SessionDriver.swift */; };
+		AF1F8F505CFA634AAB82056E5AF35940 /* MessageResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C685B47F4B34C66E6EB54921508C494 /* MessageResult.swift */; };
+		BB91F883786EF7FF40E991119EF2004B /* Sendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74CA9D0D275FC911D696BBEBC2A45F0 /* Sendable.swift */; };
+		C22140C01A98498F73A8AC24F4D046C3 /* BeaconInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A01AC13BB51754ECA8B8458CDCA234 /* BeaconInfo.swift */; };
+		D884EB4F3B940A66F796AB740207031F /* CustomCarrotSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74406FA13A86513EC600F65CBF0DC4E /* CustomCarrotSession.swift */; };
+		D9A69671E0A757F2638175541FF91161 /* Parrot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CC129E40EC4E8131E87974963A73E7 /* Parrot-dummy.m */; };
+		E69B3507241FA386A2739C1567C9798C /* BeaconParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = B962A3F6FE3CF060A8084B17BB7BE91B /* BeaconParams.swift */; };
+		EAEBEDA42385C9EACF2A5FE998AC0ABE /* PicnicProtocolState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FE4C2F9F1F6B425EFC994A32E8F37A /* PicnicProtocolState.swift */; };
+		F57C5BFC807FA5ED94F38D460831EFDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F216F7EEEE42C1647672D286D109D247 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,84 +52,87 @@
 			remoteGlobalIDString = 6A44F0E7E2785450021306FE7C94B4D3;
 			remoteInfo = SocketRocket;
 		};
-		B84E622C12CDEBA1C9C958AA1065733C /* PBXContainerItemProxy */ = {
+		9D7A1895E0566DC2B6E4E2B49997B73C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 97CC7DB5421B85382B40BE5EFD8FCC6F;
+			remoteGlobalIDString = 66F2B8BE8A249AF908A86879DAFAE695;
 			remoteInfo = Parrot;
 		};
 		BB4A41B92A67141D6F30947A11410DD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BB062DB3D4AD2301F999B0F4339B86FD;
+			remoteGlobalIDString = A0AD7A24352E08F4E0733AD02794836E;
 			remoteInfo = Carrot;
 		};
 		CBDECB3FF5AA2110EDD87120F10AD755 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 97CC7DB5421B85382B40BE5EFD8FCC6F;
+			remoteGlobalIDString = 66F2B8BE8A249AF908A86879DAFAE695;
 			remoteInfo = Parrot;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0484DBF679AD0D867C44F43AF04FC663 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
-		096DCF0366E2B38E29B21CA77584440C /* CarrotSessionState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CarrotSessionState.swift; sourceTree = "<group>"; };
-		0F5005232689CEA16C2A24E1BF18D9AC /* Carrot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Carrot-umbrella.h"; sourceTree = "<group>"; };
-		2456037C40AC778BCC17FCC9D1F8C51B /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
-		2FDF846CFC4A8ED61B31A99399024187 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		04CC129E40EC4E8131E87974963A73E7 /* Parrot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Parrot-dummy.m"; sourceTree = "<group>"; };
+		181EA3920CEF141F2EE77D99E54CAF8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C685B47F4B34C66E6EB54921508C494 /* MessageResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageResult.swift; path = Carrot/Messaging/MessageResult.swift; sourceTree = "<group>"; };
+		2012509AD944B03608FF0EAD3FD91084 /* BeaconMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeaconMonitor.swift; path = Parrot/BeaconMonitor.swift; sourceTree = "<group>"; };
+		296E327F6BD1439EB701F819D75CACB1 /* Parrot.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Parrot.xcconfig; sourceTree = "<group>"; };
+		29713521278A4F2F086743F1AB1B83B8 /* Carrot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Carrot-umbrella.h"; sourceTree = "<group>"; };
+		2CF468647E110C7D818BCFF51EEB6A01 /* Parrot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parrot-umbrella.h"; sourceTree = "<group>"; };
+		2D3024D978B6F1FEBC9AA1112D84A8C8 /* SocketRocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-umbrella.h"; sourceTree = "<group>"; };
 		3214FC2C4064A3C52467ADF9A9C9F38D /* Parrot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Parrot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3362FA029DC7C80152524D76983D242A /* ReservedSendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReservedSendable.swift; sourceTree = "<group>"; };
-		360667D0E9C1601844B3E54B18571B4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34991AF4A9A641C75DA2ABC60BC8799B /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
 		3C6CA8AB855BAD1826CB622A6F1BCE16 /* Parrot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Parrot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43E9DA186FB811AEB9734205D64A99FE /* Carrot-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Carrot-prefix.pch"; sourceTree = "<group>"; };
-		45EEF6F483CCC5DFA612DAC3F87FBDB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		462D9608EB269DD19B3C375C3A952E96 /* SocketRocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-umbrella.h"; sourceTree = "<group>"; };
-		4878E7F30E6B680B1EDA594172ED6BA2 /* Sendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Sendable.swift; sourceTree = "<group>"; };
-		4EE0AA6D3394FEC5060FF99174F304B8 /* Parrot-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parrot-prefix.pch"; sourceTree = "<group>"; };
-		503CCEB99069CF7BEB0AB6FFD8816980 /* BeaconAdvertiser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeaconAdvertiser.swift; path = Parrot/BeaconAdvertiser.swift; sourceTree = "<group>"; };
+		48BDAECBC8E531D53D3F93DE255CCC13 /* Carrot-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Carrot-prefix.pch"; sourceTree = "<group>"; };
+		49EF4147D2A7F86F6D064CC96CA180AF /* ReservedSendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReservedSendable.swift; path = Carrot/Messaging/Reserved/ReservedSendable.swift; sourceTree = "<group>"; };
+		4CD9318EBF943F9F1555664F84C836C6 /* Message.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Message.swift; path = Carrot/Messaging/Message.swift; sourceTree = "<group>"; };
 		50F9AFE31FA098961AD4C1D240ADB405 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		526DCFC30F2D16ADC07FBCB9ADB8F5A5 /* Location.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		543ACA6510F0911CC777B6F3C241DC39 /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
 		56DFF01CF4CE8DEA97B16A99B50D7D56 /* Pods-Scribbles.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Scribbles.modulemap"; sourceTree = "<group>"; };
 		57E659957F57DFC916E38D75753F0DB6 /* Carrot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Carrot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A91C41E2C0EE1960BB5D254B30BF039 /* Pods-Scribbles-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scribbles-resources.sh"; sourceTree = "<group>"; };
-		62005BBC7F207CEB39429F3C1373A88A /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
-		67B384B97C75FAAF8E0F6E2D34243030 /* Parrot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Parrot-dummy.m"; sourceTree = "<group>"; };
+		5D289755500FC96D7CF2F87CAB4BD2B1 /* SessionDriver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDriver.swift; path = Carrot/Session/SessionDriver.swift; sourceTree = "<group>"; };
+		64706F9FEEE93B836EE514381FFD4BC9 /* Carrot.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Carrot.xcconfig; sourceTree = "<group>"; };
+		6A05EF6D4E82745873C2803C44DBFF87 /* BeaconAdvertiser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeaconAdvertiser.swift; path = Parrot/BeaconAdvertiser.swift; sourceTree = "<group>"; };
+		7357959A064CBAD1A3D1C9F0664E2F6F /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		76F9C88A29A4791EECA95CC0C3490607 /* Carrot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Carrot.modulemap; sourceTree = "<group>"; };
+		791A4FB5791D978CE2249E204A625CC2 /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SocketRocket.modulemap; sourceTree = "<group>"; };
 		79835828CA70824D9B65939A0B44FFB1 /* Pods-Scribbles-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Scribbles-frameworks.sh"; sourceTree = "<group>"; };
-		7B1F2B4DB074CD002B66D27A9CC5099A /* Message.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		7DBB28EBFEEBE771CA9DB0A9A1430356 /* Parrot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Parrot.modulemap; sourceTree = "<group>"; };
+		7EA3F90E03631704115F5899D04CAD4C /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
 		81C50FBAF82F78FF366B5C929A81FC2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87D1B0D526E615C34AD5B541DD861654 /* Pods-Scribbles-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Scribbles-acknowledgements.markdown"; sourceTree = "<group>"; };
 		893FFBD00317E7E478D179D2423452FB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		8C2FD256ED23977308DC571B4A79E9F7 /* Pods-Scribbles-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Scribbles-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		949EB1080978B15206FF20CFC726DF72 /* CarrotSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CarrotSession.swift; sourceTree = "<group>"; };
-		A490B79EEDB4DF614FF6D394538676D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4AC837D47E690723AC4A78717756A52 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		AD62450EB88D381A3691A977437CA569 /* Carrot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Carrot.modulemap; sourceTree = "<group>"; };
+		A8BA00189823B614B41AA62B45C91E82 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		A8EFA6A8D93524F7AC06EFAC74302CB7 /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		A919AC6360CFAA9E85F15F972F44FBDA /* MatrixUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatrixUtils.swift; path = Carrot/Geometry/MatrixUtils.swift; sourceTree = "<group>"; };
+		B133966665FFC7A8DED92CBDEE611800 /* PicnicProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PicnicProtocol.swift; path = "Carrot/Picnic Protocol/PicnicProtocol.swift"; sourceTree = "<group>"; };
 		B42AA69F5BA02FC3BF4C2CF31E7C97B7 /* Pods-Scribbles-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Scribbles-dummy.m"; sourceTree = "<group>"; };
-		B463A84C622F1713F38DFEFED93F26DD /* Parrot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parrot-umbrella.h"; sourceTree = "<group>"; };
 		B4D4713B2A4C6202B0AA41D0846D3C4E /* Pods-Scribbles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scribbles.release.xcconfig"; sourceTree = "<group>"; };
-		BD201A074D2F0F71CCAAA4C26665C13B /* Carrot.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Carrot.xcconfig; sourceTree = "<group>"; };
-		BDB8494E164149EF3B74CAF95E2AD050 /* Parrot.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Parrot.xcconfig; sourceTree = "<group>"; };
-		C1BAC8C8CF744CD20411B152DA0A6AC4 /* ReservedMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReservedMessage.swift; sourceTree = "<group>"; };
-		C39E200EB02B885DF50429264B120481 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		D3E3F7D0F61A8BF32ECD54DE75ACD67B /* BeaconParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeaconParams.swift; path = Parrot/BeaconParams.swift; sourceTree = "<group>"; };
-		D5647421518566C550CADF9F715C8920 /* BeaconInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeaconInfo.swift; path = Parrot/BeaconInfo.swift; sourceTree = "<group>"; };
-		D60FE163581525ACB5DE8C1EA16E8C74 /* Carrot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Carrot-dummy.m"; sourceTree = "<group>"; };
-		E38728971FF2BF91EBF271B94A64336B /* BeaconMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeaconMonitor.swift; path = Parrot/BeaconMonitor.swift; sourceTree = "<group>"; };
-		E709B3B1E885BA932B41B2EACB8E33EA /* Matrix_Float4x4+Conveniences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Matrix_Float4x4+Conveniences.swift"; sourceTree = "<group>"; };
+		B864874D237EC38FA8B82963E40BBD38 /* ReservedMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReservedMessage.swift; path = Carrot/Messaging/Reserved/ReservedMessage.swift; sourceTree = "<group>"; };
+		B90B58CF653BB41A5D4A81DEBF7BC9E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B962A3F6FE3CF060A8084B17BB7BE91B /* BeaconParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeaconParams.swift; path = Parrot/BeaconParams.swift; sourceTree = "<group>"; };
+		C74CA9D0D275FC911D696BBEBC2A45F0 /* Sendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sendable.swift; path = Carrot/Messaging/Sendable.swift; sourceTree = "<group>"; };
+		C7985CF424D062981ECD514BA53F0E32 /* Parrot-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parrot-prefix.pch"; sourceTree = "<group>"; };
+		C96B58CDDAE286C5A4FB613126A09263 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Carrot/Networking/Socket.swift; sourceTree = "<group>"; };
+		D74406FA13A86513EC600F65CBF0DC4E /* CustomCarrotSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomCarrotSession.swift; path = Carrot/Session/CustomCarrotSession.swift; sourceTree = "<group>"; };
+		DBA38DE4B7873D2EE02FFC9A89196669 /* Carrot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Carrot-dummy.m"; sourceTree = "<group>"; };
+		DFAA9F5CD496B2E68D84FDF1E435F409 /* Parrot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Parrot.modulemap; sourceTree = "<group>"; };
+		E05712D9750CA0B03C9E893EFE4FA18A /* CarrotSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CarrotSession.swift; path = Carrot/Session/CarrotSession.swift; sourceTree = "<group>"; };
+		E3A01AC13BB51754ECA8B8458CDCA234 /* BeaconInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeaconInfo.swift; path = Parrot/BeaconInfo.swift; sourceTree = "<group>"; };
+		E7FE4C2F9F1F6B425EFC994A32E8F37A /* PicnicProtocolState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PicnicProtocolState.swift; path = "Carrot/Picnic Protocol/PicnicProtocolState.swift"; sourceTree = "<group>"; };
 		E9C12DC6F2016592C05DD3BC374CBD42 /* Pods_Scribbles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scribbles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBB97151BF040C0B317D1734B740AFD1 /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SocketRocket.modulemap; sourceTree = "<group>"; };
-		ED4E3EDD6F652E5CC3A61CE5F2ACE568 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		EBA64997344211DF512BEA1D2B3AA05A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F216F7EEEE42C1647672D286D109D247 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F321FEE5FE005B047326BB65BB6E3D91 /* Pods-Scribbles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Scribbles.debug.xcconfig"; sourceTree = "<group>"; };
+		F5C65DBD37B8835112A455D620A6B7D7 /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
 		F9A8129B39CE1A7567DC3B3EFE1A54F6 /* Pods-Scribbles-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Scribbles-acknowledgements.plist"; sourceTree = "<group>"; };
-		FE8867A87A2ED0E631C57B43348E1027 /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		FCDDC180BFE132A19EAEEBB6ED2364CC /* DriverState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DriverState.swift; path = Carrot/Session/DriverState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,20 +144,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D140F4F9EB94CD36BBD9C3A77B6A18A /* Frameworks */ = {
+		78DD9E8B26B74B3DCA8E1C472004F3F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17D69E720C805E6FC522097854BB1F30 /* Foundation.framework in Frameworks */,
-				A16DC089F2C4264F04AC4F134A47D081 /* Parrot.framework in Frameworks */,
+				3989B2D85AF3A0F96F22C333B37DCFD9 /* Foundation.framework in Frameworks */,
+				3AA7742513D2321E27D7D70AFDB24A41 /* Parrot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CDC6C7472EDD70CDE1F740A94FE61CB /* Frameworks */ = {
+		DA15F832E02C302A583352C8524A6FC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AE30061BC4C24583DC5FB89234AD6AB /* Foundation.framework in Frameworks */,
+				F57C5BFC807FA5ED94F38D460831EFDC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,16 +184,53 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		241BD08F4C6BBF683D180275948B484A /* Parrot */ = {
+		0452AC4D7676543F8310E59115D79FFD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				503CCEB99069CF7BEB0AB6FFD8816980 /* BeaconAdvertiser.swift */,
-				D5647421518566C550CADF9F715C8920 /* BeaconInfo.swift */,
-				E38728971FF2BF91EBF271B94A64336B /* BeaconMonitor.swift */,
-				D3E3F7D0F61A8BF32ECD54DE75ACD67B /* BeaconParams.swift */,
-				9689A266678CD34BA33EA0F38CC9DA6D /* Support Files */,
+				181EA3920CEF141F2EE77D99E54CAF8F /* Info.plist */,
+				791A4FB5791D978CE2249E204A625CC2 /* SocketRocket.modulemap */,
+				34991AF4A9A641C75DA2ABC60BC8799B /* SocketRocket.xcconfig */,
+				7EA3F90E03631704115F5899D04CAD4C /* SocketRocket-dummy.m */,
+				A8EFA6A8D93524F7AC06EFAC74302CB7 /* SocketRocket-prefix.pch */,
+				2D3024D978B6F1FEBC9AA1112D84A8C8 /* SocketRocket-umbrella.h */,
 			);
-			path = Parrot;
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		0A475A72ABF68A7558F838A6C5F82A9D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76F9C88A29A4791EECA95CC0C3490607 /* Carrot.modulemap */,
+				64706F9FEEE93B836EE514381FFD4BC9 /* Carrot.xcconfig */,
+				DBA38DE4B7873D2EE02FFC9A89196669 /* Carrot-dummy.m */,
+				48BDAECBC8E531D53D3F93DE255CCC13 /* Carrot-prefix.pch */,
+				29713521278A4F2F086743F1AB1B83B8 /* Carrot-umbrella.h */,
+				B90B58CF653BB41A5D4A81DEBF7BC9E7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Carrot";
+			sourceTree = "<group>";
+		};
+		21ABD1B8343F22E12EDB41D34D53E784 /* Carrot */ = {
+			isa = PBXGroup;
+			children = (
+				E05712D9750CA0B03C9E893EFE4FA18A /* CarrotSession.swift */,
+				D74406FA13A86513EC600F65CBF0DC4E /* CustomCarrotSession.swift */,
+				FCDDC180BFE132A19EAEEBB6ED2364CC /* DriverState.swift */,
+				A919AC6360CFAA9E85F15F972F44FBDA /* MatrixUtils.swift */,
+				4CD9318EBF943F9F1555664F84C836C6 /* Message.swift */,
+				1C685B47F4B34C66E6EB54921508C494 /* MessageResult.swift */,
+				B133966665FFC7A8DED92CBDEE611800 /* PicnicProtocol.swift */,
+				E7FE4C2F9F1F6B425EFC994A32E8F37A /* PicnicProtocolState.swift */,
+				B864874D237EC38FA8B82963E40BBD38 /* ReservedMessage.swift */,
+				49EF4147D2A7F86F6D064CC96CA180AF /* ReservedSendable.swift */,
+				C74CA9D0D275FC911D696BBEBC2A45F0 /* Sendable.swift */,
+				5D289755500FC96D7CF2F87CAB4BD2B1 /* SessionDriver.swift */,
+				C96B58CDDAE286C5A4FB613126A09263 /* Socket.swift */,
+				0A475A72ABF68A7558F838A6C5F82A9D /* Support Files */,
+			);
+			path = Carrot;
 			sourceTree = "<group>";
 		};
 		2B172A5588068153574BC47C431ACC9D /* Frameworks */ = {
@@ -199,44 +242,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2DB10F127541F2A3F75078A45A0E5E9E /* Support Files */ = {
+		56106DA5919C25A46DB31DC54A543424 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AD62450EB88D381A3691A977437CA569 /* Carrot.modulemap */,
-				BD201A074D2F0F71CCAAA4C26665C13B /* Carrot.xcconfig */,
-				D60FE163581525ACB5DE8C1EA16E8C74 /* Carrot-dummy.m */,
-				43E9DA186FB811AEB9734205D64A99FE /* Carrot-prefix.pch */,
-				0F5005232689CEA16C2A24E1BF18D9AC /* Carrot-umbrella.h */,
-				360667D0E9C1601844B3E54B18571B4E /* Info.plist */,
+				EBA64997344211DF512BEA1D2B3AA05A /* Info.plist */,
+				DFAA9F5CD496B2E68D84FDF1E435F409 /* Parrot.modulemap */,
+				296E327F6BD1439EB701F819D75CACB1 /* Parrot.xcconfig */,
+				04CC129E40EC4E8131E87974963A73E7 /* Parrot-dummy.m */,
+				C7985CF424D062981ECD514BA53F0E32 /* Parrot-prefix.pch */,
+				2CF468647E110C7D818BCFF51EEB6A01 /* Parrot-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../scribbles-ios/Pods/Target Support Files/Carrot";
+			path = "../Target Support Files/Parrot";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				C97F74026C6630E134A287A8B7EDFE03 /* Development Pods */,
 				2B172A5588068153574BC47C431ACC9D /* Frameworks */,
-				BA89B1E07C3E6234EE9075C7256ACAE2 /* Pods */,
+				F6EDBFEBD78F3F1F2150ED910B2F1B0F /* Pods */,
 				96E7AD82799E8B3E96B1ABF5320C190D /* Products */,
 				97CDDF52D951EF791F3B6F24D2623FEA /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9689A266678CD34BA33EA0F38CC9DA6D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				45EEF6F483CCC5DFA612DAC3F87FBDB2 /* Info.plist */,
-				7DBB28EBFEEBE771CA9DB0A9A1430356 /* Parrot.modulemap */,
-				BDB8494E164149EF3B74CAF95E2AD050 /* Parrot.xcconfig */,
-				67B384B97C75FAAF8E0F6E2D34243030 /* Parrot-dummy.m */,
-				4EE0AA6D3394FEC5060FF99174F304B8 /* Parrot-prefix.pch */,
-				B463A84C622F1713F38DFEFED93F26DD /* Parrot-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Parrot";
 			sourceTree = "<group>";
 		};
 		96E7AD82799E8B3E96B1ABF5320C190D /* Products */ = {
@@ -258,35 +286,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		99131A0F3E35D2BDA37A6BBE1CBA93A0 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				E709B3B1E885BA932B41B2EACB8E33EA /* Matrix_Float4x4+Conveniences.swift */,
-				C39E200EB02B885DF50429264B120481 /* Utils.swift */,
-			);
-			name = Utils;
-			path = Carrot/Utils;
-			sourceTree = "<group>";
-		};
-		9E78B74679E850189A017B569C97C888 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				2FDF846CFC4A8ED61B31A99399024187 /* Socket.swift */,
-				F2C694707655CB9B225DC99FC5E2F113 /* Session */,
-			);
-			name = Networking;
-			path = Carrot/Networking;
-			sourceTree = "<group>";
-		};
-		BA89B1E07C3E6234EE9075C7256ACAE2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				241BD08F4C6BBF683D180275948B484A /* Parrot */,
-				CA5596E59EC363BEB9FA36571EFD4C1B /* SocketRocket */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		BE1EA5D814226A23241BF4850BDB843E /* Pods-Scribbles */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,79 +304,37 @@
 			path = "Target Support Files/Pods-Scribbles";
 			sourceTree = "<group>";
 		};
-		C97F74026C6630E134A287A8B7EDFE03 /* Development Pods */ = {
+		F0B2DE637874652F9671048AA16E0754 /* Parrot */ = {
 			isa = PBXGroup;
 			children = (
-				DF083861FAE21F461F0D9B97117EF45E /* Carrot */,
+				6A05EF6D4E82745873C2803C44DBFF87 /* BeaconAdvertiser.swift */,
+				E3A01AC13BB51754ECA8B8458CDCA234 /* BeaconInfo.swift */,
+				2012509AD944B03608FF0EAD3FD91084 /* BeaconMonitor.swift */,
+				B962A3F6FE3CF060A8084B17BB7BE91B /* BeaconParams.swift */,
+				56106DA5919C25A46DB31DC54A543424 /* Support Files */,
 			);
-			name = "Development Pods";
+			path = Parrot;
 			sourceTree = "<group>";
 		};
-		CA5596E59EC363BEB9FA36571EFD4C1B /* SocketRocket */ = {
+		F6EDBFEBD78F3F1F2150ED910B2F1B0F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ED4E3EDD6F652E5CC3A61CE5F2ACE568 /* SocketRocket.h */,
-				2456037C40AC778BCC17FCC9D1F8C51B /* SRWebSocket.h */,
-				0484DBF679AD0D867C44F43AF04FC663 /* SRWebSocket.m */,
-				FBBCC8A6BC22545E3CF689A18AF7D3BC /* Support Files */,
+				21ABD1B8343F22E12EDB41D34D53E784 /* Carrot */,
+				F0B2DE637874652F9671048AA16E0754 /* Parrot */,
+				F74F2B99BF2BAF29B0F5BB4C9819C51C /* SocketRocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F74F2B99BF2BAF29B0F5BB4C9819C51C /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				A8BA00189823B614B41AA62B45C91E82 /* SocketRocket.h */,
+				F5C65DBD37B8835112A455D620A6B7D7 /* SRWebSocket.h */,
+				7357959A064CBAD1A3D1C9F0664E2F6F /* SRWebSocket.m */,
+				0452AC4D7676543F8310E59115D79FFD /* Support Files */,
 			);
 			path = SocketRocket;
-			sourceTree = "<group>";
-		};
-		CC42440C05BA5BD16DC41B2BA8E650BA /* Reserved */ = {
-			isa = PBXGroup;
-			children = (
-				C1BAC8C8CF744CD20411B152DA0A6AC4 /* ReservedMessage.swift */,
-				3362FA029DC7C80152524D76983D242A /* ReservedSendable.swift */,
-			);
-			path = Reserved;
-			sourceTree = "<group>";
-		};
-		DF083861FAE21F461F0D9B97117EF45E /* Carrot */ = {
-			isa = PBXGroup;
-			children = (
-				E5C1C68E2FF7107F22E74BDFA5E7E44E /* Model */,
-				9E78B74679E850189A017B569C97C888 /* Networking */,
-				2DB10F127541F2A3F75078A45A0E5E9E /* Support Files */,
-				99131A0F3E35D2BDA37A6BBE1CBA93A0 /* Utils */,
-			);
-			name = Carrot;
-			path = "../../carrot-ios";
-			sourceTree = "<group>";
-		};
-		E5C1C68E2FF7107F22E74BDFA5E7E44E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				526DCFC30F2D16ADC07FBCB9ADB8F5A5 /* Location.swift */,
-				7B1F2B4DB074CD002B66D27A9CC5099A /* Message.swift */,
-				4878E7F30E6B680B1EDA594172ED6BA2 /* Sendable.swift */,
-				CC42440C05BA5BD16DC41B2BA8E650BA /* Reserved */,
-			);
-			name = Model;
-			path = Carrot/Model;
-			sourceTree = "<group>";
-		};
-		F2C694707655CB9B225DC99FC5E2F113 /* Session */ = {
-			isa = PBXGroup;
-			children = (
-				949EB1080978B15206FF20CFC726DF72 /* CarrotSession.swift */,
-				096DCF0366E2B38E29B21CA77584440C /* CarrotSessionState.swift */,
-			);
-			path = Session;
-			sourceTree = "<group>";
-		};
-		FBBCC8A6BC22545E3CF689A18AF7D3BC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A490B79EEDB4DF614FF6D394538676D0 /* Info.plist */,
-				EBB97151BF040C0B317D1734B740AFD1 /* SocketRocket.modulemap */,
-				543ACA6510F0911CC777B6F3C241DC39 /* SocketRocket.xcconfig */,
-				62005BBC7F207CEB39429F3C1373A88A /* SocketRocket-dummy.m */,
-				FE8867A87A2ED0E631C57B43348E1027 /* SocketRocket-prefix.pch */,
-				462D9608EB269DD19B3C375C3A952E96 /* SocketRocket-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SocketRocket";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -391,19 +348,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C76E926686DC690FA8BF2F643AB56FD /* Headers */ = {
+		84392FED49051209D5C9435B5369441A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				445130DFC402077C43D2BF26587D4940 /* Carrot-umbrella.h in Headers */,
+				0740BA59C930222C682D5262C9129BE7 /* Carrot-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1942503DBC7F2F2BD69A3433091B0F7 /* Headers */ = {
+		B7D714F070ADD55AEA3A90CAB1588A11 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D7D247D8680BFD64C29E2AB7051078 /* Parrot-umbrella.h in Headers */,
+				131C9B057A0EF4A67F63D69059C3D1E1 /* Parrot-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +377,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		66F2B8BE8A249AF908A86879DAFAE695 /* Parrot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274AA1B0BD9B6185A7A691D902DE10FC /* Build configuration list for PBXNativeTarget "Parrot" */;
+			buildPhases = (
+				FAE0C8BEBEE292A1D517F8896228D195 /* Sources */,
+				DA15F832E02C302A583352C8524A6FC1 /* Frameworks */,
+				B7D714F070ADD55AEA3A90CAB1588A11 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parrot;
+			productName = Parrot;
+			productReference = 3C6CA8AB855BAD1826CB622A6F1BCE16 /* Parrot.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		6A44F0E7E2785450021306FE7C94B4D3 /* SocketRocket */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8338BCBD1A89C9B41F0034CEE2416BB /* Build configuration list for PBXNativeTarget "SocketRocket" */;
@@ -437,35 +411,18 @@
 			productReference = 50F9AFE31FA098961AD4C1D240ADB405 /* SocketRocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		97CC7DB5421B85382B40BE5EFD8FCC6F /* Parrot */ = {
+		A0AD7A24352E08F4E0733AD02794836E /* Carrot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1354FA430E6B86923DAEF8632460C73E /* Build configuration list for PBXNativeTarget "Parrot" */;
+			buildConfigurationList = 666778C5CB779C733379A6E5B1410D0A /* Build configuration list for PBXNativeTarget "Carrot" */;
 			buildPhases = (
-				565ABFB204C3337774A61D4D3512D23A /* Sources */,
-				9CDC6C7472EDD70CDE1F740A94FE61CB /* Frameworks */,
-				D1942503DBC7F2F2BD69A3433091B0F7 /* Headers */,
+				DFFA80BE4F41A6B66115C693F1B0809B /* Sources */,
+				78DD9E8B26B74B3DCA8E1C472004F3F6 /* Frameworks */,
+				84392FED49051209D5C9435B5369441A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = Parrot;
-			productName = Parrot;
-			productReference = 3C6CA8AB855BAD1826CB622A6F1BCE16 /* Parrot.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BB062DB3D4AD2301F999B0F4339B86FD /* Carrot */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F922BFFD3CD85F0679212EF0D41C7EF1 /* Build configuration list for PBXNativeTarget "Carrot" */;
-			buildPhases = (
-				929380D161643DD9908501787984C951 /* Sources */,
-				5D140F4F9EB94CD36BBD9C3A77B6A18A /* Frameworks */,
-				5C76E926686DC690FA8BF2F643AB56FD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3E13B39F573CA192EE0A91F251108653 /* PBXTargetDependency */,
+				8BB4EF33539A915E3840F3FDB5B74F6C /* PBXTargetDependency */,
 			);
 			name = Carrot;
 			productName = Carrot;
@@ -499,7 +456,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0920;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -513,8 +470,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB062DB3D4AD2301F999B0F4339B86FD /* Carrot */,
-				97CC7DB5421B85382B40BE5EFD8FCC6F /* Parrot */,
+				A0AD7A24352E08F4E0733AD02794836E /* Carrot */,
+				66F2B8BE8A249AF908A86879DAFAE695 /* Parrot */,
 				E110279445042FD1C83231E6D79556D9 /* Pods-Scribbles */,
 				6A44F0E7E2785450021306FE7C94B4D3 /* SocketRocket */,
 			);
@@ -522,42 +479,33 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		565ABFB204C3337774A61D4D3512D23A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92E1F69B830F2346B03254C59E2912A1 /* BeaconAdvertiser.swift in Sources */,
-				2BBB8D9B2E5081BBE4039E188B2F7D13 /* BeaconInfo.swift in Sources */,
-				82A444849C5A4609D6D3416DDD077BE9 /* BeaconMonitor.swift in Sources */,
-				D2B89DC7CCB3C6BDDB2DA25F8EE27C9C /* BeaconParams.swift in Sources */,
-				BC5B29AFB1991BAA7049A398CB931C9B /* Parrot-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		929380D161643DD9908501787984C951 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7A2822019787A14ECC4069F24786CC31 /* Carrot-dummy.m in Sources */,
-				CF97B16EC1FC56C5284F40888B56BF98 /* CarrotSession.swift in Sources */,
-				E7DA6851B23ADA225FC6864926E4C10E /* CarrotSessionState.swift in Sources */,
-				29524A1FECE2F7C81F0EE933C4CBF05E /* Location.swift in Sources */,
-				128AF1E81C21BC85DE083E0D142CD2C8 /* Matrix_Float4x4+Conveniences.swift in Sources */,
-				C3A9C0C2EEF8D97473B0D17835448404 /* Message.swift in Sources */,
-				AA97B9DD96A376A4DA42D3B098270817 /* ReservedMessage.swift in Sources */,
-				2BD6AFABD3159C8D48AC8BD4572D443D /* ReservedSendable.swift in Sources */,
-				A172372158166119BEB85E8A45306624 /* Sendable.swift in Sources */,
-				B958AE08D5ABA4939312C1DD275EA519 /* Socket.swift in Sources */,
-				73667A43AA2446D93EFD94FF24C44CCE /* Utils.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BE2C97E549BADFB3CCF7B247AC334962 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				06206590D8CDB1377055CA1F189ABC54 /* SocketRocket-dummy.m in Sources */,
 				462CAEA2E1D0F4E06532C43E8FAAAE52 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFA80BE4F41A6B66115C693F1B0809B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DB7A13F7911166BB0124013CE59442 /* Carrot-dummy.m in Sources */,
+				8C5267576D4E8CD014A0474F3527370F /* CarrotSession.swift in Sources */,
+				D884EB4F3B940A66F796AB740207031F /* CustomCarrotSession.swift in Sources */,
+				03441027206BE09AC467D8ACA3B78691 /* DriverState.swift in Sources */,
+				7F6880E32DCFE442073E163D962E76DD /* MatrixUtils.swift in Sources */,
+				38E229EBA90F7E0014F87921CF0611B3 /* Message.swift in Sources */,
+				AF1F8F505CFA634AAB82056E5AF35940 /* MessageResult.swift in Sources */,
+				99297CE7ECB6406E6DD747CF3A6BF7CC /* PicnicProtocol.swift in Sources */,
+				EAEBEDA42385C9EACF2A5FE998AC0ABE /* PicnicProtocolState.swift in Sources */,
+				53AE29247CF9D7709763E1C84ED44C00 /* ReservedMessage.swift in Sources */,
+				54AEB2ECAF5EF7C1B1F7DF9C00184D73 /* ReservedSendable.swift in Sources */,
+				BB91F883786EF7FF40E991119EF2004B /* Sendable.swift in Sources */,
+				9E070C594300A0104B5AD3F7BB442407 /* SessionDriver.swift in Sources */,
+				2825B6D721394C20E4B3A8526AE521B3 /* Socket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,14 +517,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAE0C8BEBEE292A1D517F8896228D195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF310FE882463152F484213D22AB62D /* BeaconAdvertiser.swift in Sources */,
+				C22140C01A98498F73A8AC24F4D046C3 /* BeaconInfo.swift in Sources */,
+				4D14A43E69F6494AB12A168E1F135E10 /* BeaconMonitor.swift in Sources */,
+				E69B3507241FA386A2739C1567C9798C /* BeaconParams.swift in Sources */,
+				D9A69671E0A757F2638175541FF91161 /* Parrot-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3E13B39F573CA192EE0A91F251108653 /* PBXTargetDependency */ = {
+		8BB4EF33539A915E3840F3FDB5B74F6C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Parrot;
-			target = 97CC7DB5421B85382B40BE5EFD8FCC6F /* Parrot */;
-			targetProxy = B84E622C12CDEBA1C9C958AA1065733C /* PBXContainerItemProxy */;
+			target = 66F2B8BE8A249AF908A86879DAFAE695 /* Parrot */;
+			targetProxy = 9D7A1895E0566DC2B6E4E2B49997B73C /* PBXContainerItemProxy */;
 		};
 		9A1DA1B6EED907F2495C057FFBFBF83E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -587,13 +547,13 @@
 		AFB73D8EA2D34A358A3BD9691DA81A9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Carrot;
-			target = BB062DB3D4AD2301F999B0F4339B86FD /* Carrot */;
+			target = A0AD7A24352E08F4E0733AD02794836E /* Carrot */;
 			targetProxy = BB4A41B92A67141D6F30947A11410DD3 /* PBXContainerItemProxy */;
 		};
 		E1386E81F3E1A90007A3EB5ABE95AD5D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Parrot;
-			target = 97CC7DB5421B85382B40BE5EFD8FCC6F /* Parrot */;
+			target = 66F2B8BE8A249AF908A86879DAFAE695 /* Parrot */;
 			targetProxy = CBDECB3FF5AA2110EDD87120F10AD755 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -601,7 +561,7 @@
 /* Begin XCBuildConfiguration section */
 		035935AB8E16357D3D4AEF86D1B95606 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 543ACA6510F0911CC777B6F3C241DC39 /* SocketRocket.xcconfig */;
+			baseConfigurationReference = 34991AF4A9A641C75DA2ABC60BC8799B /* SocketRocket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -626,6 +586,41 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0EA1CF64BB3B0FB1299D4E776485C9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 296E327F6BD1439EB701F819D75CACB1 /* Parrot.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Parrot/Parrot-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Parrot/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Parrot/Parrot.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Parrot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -686,76 +681,6 @@
 			};
 			name = Release;
 		};
-		243E0A696539A7A51F4DA7CDD086F250 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDB8494E164149EF3B74CAF95E2AD050 /* Parrot.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Parrot/Parrot-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Parrot/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Parrot/Parrot.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Parrot;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		24E829C9E4CD503D0E0E10C74B6359E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD201A074D2F0F71CCAAA4C26665C13B /* Carrot.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Carrot/Carrot-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Carrot/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Carrot/Carrot.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Carrot;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		45EC48487E9DFA3070927198067BB56D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F321FEE5FE005B047326BB65BB6E3D91 /* Pods-Scribbles.debug.xcconfig */;
@@ -795,16 +720,16 @@
 			};
 			name = Debug;
 		};
-		59869272FC4F7B29B59396746C6390AB /* Release */ = {
+		5C17DDABBBC4C8926FA787A1C03D1BAA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD201A074D2F0F71CCAAA4C26665C13B /* Carrot.xcconfig */;
+			baseConfigurationReference = 64706F9FEEE93B836EE514381FFD4BC9 /* Carrot.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -817,22 +742,22 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Carrot/Carrot.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Carrot;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		6900CE78E0CD2B84F95BCAC80282C0BB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 543ACA6510F0911CC777B6F3C241DC39 /* SocketRocket.xcconfig */;
+			baseConfigurationReference = 34991AF4A9A641C75DA2ABC60BC8799B /* SocketRocket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -902,40 +827,40 @@
 			};
 			name = Release;
 		};
-		7A6C4A100E41ACD90AD90553E99FF77A /* Debug */ = {
+		7FE41EB7388DFD060B0CC581F65470BF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDB8494E164149EF3B74CAF95E2AD050 /* Parrot.xcconfig */;
+			baseConfigurationReference = 64706F9FEEE93B836EE514381FFD4BC9 /* Carrot.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Parrot/Parrot-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Parrot/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Carrot/Carrot-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Carrot/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Parrot/Parrot.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Parrot;
+				MODULEMAP_FILE = "Target Support Files/Carrot/Carrot.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Carrot;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -994,23 +919,58 @@
 			};
 			name = Debug;
 		};
+		FF49CC896F96C9EFA73B19A9E6A71234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 296E327F6BD1439EB701F819D75CACB1 /* Parrot.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Parrot/Parrot-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Parrot/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Parrot/Parrot.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Parrot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1354FA430E6B86923DAEF8632460C73E /* Build configuration list for PBXNativeTarget "Parrot" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7A6C4A100E41ACD90AD90553E99FF77A /* Debug */,
-				243E0A696539A7A51F4DA7CDD086F250 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1E81E933F965B89F7B630126E42C5BF0 /* Build configuration list for PBXNativeTarget "Pods-Scribbles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45EC48487E9DFA3070927198067BB56D /* Debug */,
 				6F9E73ADD8DDEA05A57055EFC02670E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274AA1B0BD9B6185A7A691D902DE10FC /* Build configuration list for PBXNativeTarget "Parrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA1CF64BB3B0FB1299D4E776485C9D8 /* Debug */,
+				FF49CC896F96C9EFA73B19A9E6A71234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1024,20 +984,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		666778C5CB779C733379A6E5B1410D0A /* Build configuration list for PBXNativeTarget "Carrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C17DDABBBC4C8926FA787A1C03D1BAA /* Debug */,
+				7FE41EB7388DFD060B0CC581F65470BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A8338BCBD1A89C9B41F0034CEE2416BB /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				035935AB8E16357D3D4AEF86D1B95606 /* Debug */,
 				6900CE78E0CD2B84F95BCAC80282C0BB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F922BFFD3CD85F0679212EF0D41C7EF1 /* Build configuration list for PBXNativeTarget "Carrot" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				24E829C9E4CD503D0E0E10C74B6359E0 /* Debug */,
-				59869272FC4F7B29B59396746C6390AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
