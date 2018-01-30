@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB0F2C39202128DE000F721D /* TextEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F2C38202128DE000F721D /* TextEvent.swift */; };
-		AB0F2C3B20212AC4000F721D /* DynamicGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F2C3A20212AC4000F721D /* DynamicGeometry.swift */; };
+		AB0F2C39202128DE000F721D /* DrawEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F2C38202128DE000F721D /* DrawEvent.swift */; };
+		AB0F2C3B20212AC4000F721D /* DynamicGeometryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F2C3A20212AC4000F721D /* DynamicGeometryNode.swift */; };
+		AB0F2C3D202131F2000F721D /* SceneKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F2C3C202131F2000F721D /* SceneKitUtils.swift */; };
 		AB6ED54B1FD73E0100CF4F02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ED54A1FD73E0100CF4F02 /* AppDelegate.swift */; };
 		AB6ED54F1FD73E0100CF4F02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ED54E1FD73E0100CF4F02 /* ViewController.swift */; };
 		AB6ED5541FD73E0100CF4F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6ED5531FD73E0100CF4F02 /* Assets.xcassets */; };
@@ -21,8 +22,9 @@
 /* Begin PBXFileReference section */
 		5C5F71AB1358684BB563D00C /* Pods_Scribbles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scribbles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FFCB9C971138A282C4A1CA /* Pods-Scribbles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scribbles.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scribbles/Pods-Scribbles.release.xcconfig"; sourceTree = "<group>"; };
-		AB0F2C38202128DE000F721D /* TextEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEvent.swift; sourceTree = "<group>"; };
-		AB0F2C3A20212AC4000F721D /* DynamicGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicGeometry.swift; sourceTree = "<group>"; };
+		AB0F2C38202128DE000F721D /* DrawEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawEvent.swift; sourceTree = "<group>"; };
+		AB0F2C3A20212AC4000F721D /* DynamicGeometryNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicGeometryNode.swift; sourceTree = "<group>"; };
+		AB0F2C3C202131F2000F721D /* SceneKitUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneKitUtils.swift; sourceTree = "<group>"; };
 		AB6ED5471FD73E0100CF4F02 /* Scribbles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scribbles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6ED54A1FD73E0100CF4F02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB6ED54E1FD73E0100CF4F02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,8 +88,9 @@
 			children = (
 				AB6ED54A1FD73E0100CF4F02 /* AppDelegate.swift */,
 				AB6ED55E1FD7415B00CF4F02 /* CarrotSocket.swift */,
-				AB0F2C3A20212AC4000F721D /* DynamicGeometry.swift */,
-				AB0F2C38202128DE000F721D /* TextEvent.swift */,
+				AB0F2C3A20212AC4000F721D /* DynamicGeometryNode.swift */,
+				AB0F2C3C202131F2000F721D /* SceneKitUtils.swift */,
+				AB0F2C38202128DE000F721D /* DrawEvent.swift */,
 				AB6ED54E1FD73E0100CF4F02 /* ViewController.swift */,
 				AB6ED5531FD73E0100CF4F02 /* Assets.xcassets */,
 				AB6ED5551FD73E0100CF4F02 /* LaunchScreen.storyboard */,
@@ -233,8 +236,9 @@
 				AB6ED54F1FD73E0100CF4F02 /* ViewController.swift in Sources */,
 				AB6ED55F1FD7415B00CF4F02 /* CarrotSocket.swift in Sources */,
 				AB6ED54B1FD73E0100CF4F02 /* AppDelegate.swift in Sources */,
-				AB0F2C39202128DE000F721D /* TextEvent.swift in Sources */,
-				AB0F2C3B20212AC4000F721D /* DynamicGeometry.swift in Sources */,
+				AB0F2C39202128DE000F721D /* DrawEvent.swift in Sources */,
+				AB0F2C3D202131F2000F721D /* SceneKitUtils.swift in Sources */,
+				AB0F2C3B20212AC4000F721D /* DynamicGeometryNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

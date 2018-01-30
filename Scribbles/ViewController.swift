@@ -44,6 +44,15 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNSceneRendererDeleg
   }
   
   override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    guard let transform = sceneView.session.currentFrame?.camera.transform else { return }
+    
+    let anchor = ARAnchor(transform: transform)
+    let drawingNode = DynamicGeometryNode(color: .red, lineWidth: 0.004)
+    currentNode = drawingNode
+    
+    sceneView.session.add(anchor: anchor)
+    nodes[anchor] = currentNode
+    
     shouldDraw = true
   }
   
@@ -54,9 +63,11 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNSceneRendererDeleg
   // MARK: Private
   
   private var sceneView: ARSCNView!
-  private var events = [ARAnchor: TextEvent]()
-  private var carrotSession: CarrotSession<TextEvent>!
+  private var currentNode: DynamicGeometryNode?
+  private var nodes = [ARAnchor: DynamicGeometryNode]()
   private var shouldDraw = false
+  
+  private var carrotSession: CarrotSession<TextEvent>!
   
   private func setUpSceneView() {
     sceneView = ARSCNView(frame: view.frame)
@@ -77,6 +88,13 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNSceneRendererDeleg
       sceneView.leftAnchor.constraint(equalTo: view.leftAnchor),
       sceneView.rightAnchor.constraint(equalTo: view.rightAnchor)
     ])
+  }
+  
+  private func centerOfScreen() -> SCNVector3 {
+    let screenBounds = UIScreen.main.bounds
+    let center = CGPoint(x: screenBounds.midX, y: screenBounds.midY)
+    let centerVec3 = SCNVector3Make(Float(center.x), Float(center.y), 0.99)
+    return sceneView.unprojectPoint(centerVec3)
   }
   
   // MARK: Carrot
@@ -102,18 +120,35 @@ class ViewController: UIViewController, ARSCNViewDelegate, SCNSceneRendererDeleg
     }
   }
   
-  private func didReceiveMessage(_ result: MessageResult<TextEvent>) {
-    
+  private func didReceiveMessage(_ result: MessageResult<DrawEvent>) {
+    switch result {
+    case let .success(message, endpoint?):
+      switch endpoint {
+      case "create":
+        break
+      case "add":
+        break
+      default:
+        break
+      }
+    case let .error(error):
+      print("ERROR: \(error)")
+    }
   }
   
   // MARK: - ARSCNViewDelegate
   
-//  func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
-//
-//  }
+  func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
+    return nodes[anchor]
+  }
  
   func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
-
+    guard shouldDraw, let currentNode = currentNode else { return }
+    DispatchQueue.main.async {
+      let vertice = self.centerOfScreen()
+      currentNode.addVertice(vertice)
+      // TODO: Send message to carrot that we've appended to a node's geometry
+    }
   }
   
   func session(_ session: ARSession, didFailWithError error: Error) {
